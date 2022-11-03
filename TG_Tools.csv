@@ -1,0 +1,17 @@
+Threat Group,Tools Used
+APT29,Tor
+APT29,Mimikatz
+APT29,meek
+APT29,AdFind
+APT29,AADInternals
+APT29,ROADTools
+APT29,BloodHound
+APT29,SDelete
+APT29,PsExec
+APT29,Systeminfo
+APT29,Tasklist
+APT29,Net
+APT29,ipconfig
+APT29,Sliver
+APT18,cmd
+APT12,HTRAN

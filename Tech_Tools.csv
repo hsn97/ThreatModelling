@@ -1,0 +1,373 @@
+Techniques,Tools Used
+Disable Windows Event Logging,Wevtutil
+Accessibility Features,Empire
+Rundll32,Koadic
+Rundll32,PcShare
+Windows Remote Management,SILENTTRINITY
+Steal or Forge Authentication Certificates,Mimikatz
+Steal or Forge Authentication Certificates,AADInternals
+Permission Groups Discovery,ShimRatReporter
+Registry Run Keys / Startup Folder,Koadic
+Registry Run Keys / Startup Folder,QuasarRAT
+Registry Run Keys / Startup Folder,Empire
+Registry Run Keys / Startup Folder,MCMD
+Registry Run Keys / Startup Folder,PowerSploit
+Registry Run Keys / Startup Folder,SILENTTRINITY
+Registry Run Keys / Startup Folder,Remcos
+Registry Run Keys / Startup Folder,Pupy
+Password Spraying,CrackMapExec
+Password Spraying,MailSniper
+Mshta,Koadic
+Exploitation for Privilege Escalation,Empire
+Exploitation for Privilege Escalation,PoshC2
+Non-Application Layer Protocol,Mythic
+Non-Application Layer Protocol,QuasarRAT
+Bidirectional Communication,Empire
+SMB/Windows Admin Shares,Net
+SMB/Windows Admin Shares,PsExec
+Multi-hop Proxy,Tor
+Indicator Removal,Donut
+Indicator Removal,CSPY Downloader
+Indicator Removal,SILENTTRINITY
+SAML Tokens,AADInternals
+Windows Management Instrumentation Event Subscription,PoshC2
+Windows Management Instrumentation Event Subscription,SILENTTRINITY
+Domain Trust Modification,AADInternals
+Match Legitimate Name or Location,PcShare
+Match Legitimate Name or Location,MCMD
+Match Legitimate Name or Location,ShimRatReporter
+Deobfuscate/Decode Files or Information,certutil
+Deobfuscate/Decode Files or Information,IronNetInjector
+Deobfuscate/Decode Files or Information,PcShare
+Deobfuscate/Decode Files or Information,Expand
+Deobfuscate/Decode Files or Information,Imminent Monitor
+Credentials from Password Stores,Mimikatz
+Credentials from Password Stores,LaZagne
+Credentials from Password Stores,Pupy
+Credentials from Password Stores,QuasarRAT
+Credentials from Password Stores,PoshC2
+Visual Basic,Donut
+Visual Basic,Koadic
+Pass the Ticket,Pupy
+Pass the Ticket,Mimikatz
+Device Registration,AADInternals
+Malicious File,CARROTBALL
+Malicious File,CSPY Downloader
+Timestomp,Empire
+File Deletion,Imminent Monitor
+File Deletion,PcShare
+File Deletion,SILENTTRINITY
+File Deletion,cmd
+File Deletion,SDelete
+File Deletion,CSPY Downloader
+Masquerade Task or Service,CSPY Downloader
+Masquerade Task or Service,IronNetInjector
+Credentials from Web Browsers,Imminent Monitor
+Credentials from Web Browsers,Mimikatz
+Credentials from Web Browsers,Pupy
+Credentials from Web Browsers,Empire
+Credentials from Web Browsers,QuasarRAT
+Credentials from Web Browsers,LaZagne
+Credentials from Web Browsers,SILENTTRINITY
+Code Signing,QuasarRAT
+Code Signing,CSPY Downloader
+System Information Discovery,Systeminfo
+System Information Discovery,SILENTTRINITY
+System Information Discovery,cmd
+System Information Discovery,ShimRatReporter
+System Information Discovery,Empire
+System Information Discovery,Pupy
+System Information Discovery,CrackMapExec
+System Information Discovery,Koadic
+System Information Discovery,PoshC2
+System Information Discovery,QuasarRAT
+Cloud Account,ROADTools
+Cloud Account,AADInternals
+Bypass User Account Control,Empire
+Bypass User Account Control,Koadic
+Bypass User Account Control,Pupy
+Bypass User Account Control,CSPY Downloader
+Bypass User Account Control,Remcos
+Bypass User Account Control,PoshC2
+Bypass User Account Control,UACMe
+Bypass User Account Control,SILENTTRINITY
+Bypass User Account Control,QuasarRAT
+Exploit Public-Facing Application,Havij
+Exploit Public-Facing Application,sqlmap
+Kerberoasting,SILENTTRINITY
+Kerberoasting,Impacket
+Kerberoasting,Empire
+Kerberoasting,PowerSploit
+Domain Groups,Net
+Domain Groups,SILENTTRINITY
+Domain Groups,dsquery
+Domain Groups,CrackMapExec
+Domain Groups,AdFind
+Domain Groups,BloodHound
+DCSync,Mimikatz
+Account Discovery,ShimRatReporter
+Steganography,Sliver
+Disable or Modify System Firewall,netsh
+Archive via Utility,Rclone
+Archive via Utility,PoshC2
+Archive via Utility,Pupy
+Cloud Accounts,Peirates
+Cloud Accounts,ROADTools
+File and Directory Discovery,CrackMapExec
+File and Directory Discovery,RemoteUtilities
+File and Directory Discovery,Forfiles
+File and Directory Discovery,PoshC2
+File and Directory Discovery,Rclone
+File and Directory Discovery,Koadic
+File and Directory Discovery,Imminent Monitor
+File and Directory Discovery,cmd
+File and Directory Discovery,Pupy
+File and Directory Discovery,Sliver
+File and Directory Discovery,SILENTTRINITY
+File and Directory Discovery,Remcos
+File and Directory Discovery,Empire
+Disable or Modify Tools,Imminent Monitor
+Disable or Modify Tools,Donut
+Disable or Modify Tools,SILENTTRINITY
+Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,Rclone
+Remote Email Collection,MailSniper
+Remote System Discovery,Ping
+Remote System Discovery,BloodHound
+Remote System Discovery,ROADTools
+Remote System Discovery,CrackMapExec
+Remote System Discovery,SILENTTRINITY
+Remote System Discovery,NBTscan
+Remote System Discovery,Net
+Remote System Discovery,Arp
+Remote System Discovery,AdFind
+Remote System Discovery,Nltest
+Process Discovery,SILENTTRINITY
+Process Discovery,IronNetInjector
+Process Discovery,PcShare
+Process Discovery,ShimRatReporter
+Process Discovery,PowerSploit
+Process Discovery,Imminent Monitor
+Process Discovery,Tasklist
+Process Discovery,Donut
+Process Discovery,Empire
+Process Discovery,Pupy
+Obfuscated Files or Information,ShimRatReporter
+Obfuscated Files or Information,Empire
+Obfuscated Files or Information,CARROTBALL
+Obfuscated Files or Information,Sliver
+Obfuscated Files or Information,MCMD
+Obfuscated Files or Information,IronNetInjector
+Obfuscated Files or Information,Out1
+Obfuscated Files or Information,PcShare
+Obfuscated Files or Information,Donut
+Obfuscated Files or Information,PowerSploit
+Obfuscated Files or Information,Imminent Monitor
+Obfuscated Files or Information,Remcos
+Windows Command Shell,PcShare
+Windows Command Shell,cmd
+Windows Command Shell,Out1
+Windows Command Shell,QuasarRAT
+Windows Command Shell,Remcos
+Windows Command Shell,Koadic
+Windows Command Shell,MCMD
+Windows Command Shell,Empire
+Windows Command Shell,SILENTTRINITY
+Domain Trust Discovery,AdFind
+Domain Trust Discovery,Empire
+Domain Trust Discovery,Nltest
+Domain Trust Discovery,PowerSploit
+Domain Trust Discovery,BloodHound
+Domain Trust Discovery,dsquery
+Domain Trust Discovery,PoshC2
+Python,Donut
+Python,Remcos
+Python,SILENTTRINITY
+Python,Pupy
+Python,IronNetInjector
+Software Packing,Donut
+Software Packing,CSPY Downloader
+Internal Proxy,Mythic
+PowerShell,PowerSploit
+PowerShell,BloodHound
+PowerShell,AADInternals
+PowerShell,Donut
+PowerShell,Koadic
+PowerShell,ConnectWise
+PowerShell,Empire
+PowerShell,CrackMapExec
+PowerShell,Pupy
+PowerShell,SILENTTRINITY
+Web Protocols,CSPY Downloader
+Web Protocols,ShimRatReporter
+Web Protocols,PoshC2
+Web Protocols,Sliver
+Web Protocols,Koadic
+Web Protocols,Out1
+Web Protocols,PcShare
+Web Protocols,Empire
+Web Protocols,Donut
+Web Protocols,Mythic
+Web Protocols,MCMD
+Web Protocols,Pupy
+Cloud Account,AADInternals
+Remote Desktop Protocol,Imminent Monitor
+Remote Desktop Protocol,Koadic
+Remote Desktop Protocol,QuasarRAT
+Remote Desktop Protocol,Pupy
+Private Keys,AADInternals
+Private Keys,Empire
+Private Keys,Mimikatz
+Domain Account,dsquery
+Domain Account,SILENTTRINITY
+Domain Account,Empire
+Domain Account,BloodHound
+Domain Account,PoshC2
+Domain Account,Net
+Domain Account,CrackMapExec
+Domain Account,AdFind
+Hybrid Identity,AADInternals
+Ingress Tool Transfer,Sliver
+Ingress Tool Transfer,BITSAdmin
+Ingress Tool Transfer,esentutl
+Ingress Tool Transfer,Koadic
+Ingress Tool Transfer,ShimRatReporter
+Ingress Tool Transfer,CARROTBALL
+Ingress Tool Transfer,RemoteUtilities
+Ingress Tool Transfer,cmd
+Ingress Tool Transfer,MCMD
+Ingress Tool Transfer,Remcos
+Ingress Tool Transfer,Pupy
+Ingress Tool Transfer,Empire
+Ingress Tool Transfer,CSPY Downloader
+Ingress Tool Transfer,certutil
+Ingress Tool Transfer,ftp
+Ingress Tool Transfer,SILENTTRINITY
+Ingress Tool Transfer,Donut
+Ingress Tool Transfer,QuasarRAT
+Domain Fronting,Mythic
+Domain Fronting,meek
+Windows Management Instrumentation,PoshC2
+Windows Management Instrumentation,Impacket
+Windows Management Instrumentation,Empire
+Windows Management Instrumentation,SILENTTRINITY
+Windows Management Instrumentation,Koadic
+Windows Management Instrumentation,PowerSploit
+Windows Management Instrumentation,CrackMapExec
+Spearphishing Link,AADInternals
+Scheduled Task,IronNetInjector
+Scheduled Task,QuasarRAT
+Scheduled Task,CSPY Downloader
+Scheduled Task,schtasks
+Scheduled Task,Empire
+Scheduled Task,MCMD
+Scheduled Task,Koadic
+Scheduled Task,PowerSploit
+Data from Local System,esentutl
+Data from Local System,MCMD
+Data from Local System,PcShare
+Data from Local System,QuasarRAT
+Data from Local System,Koadic
+Data from Local System,PowerSploit
+Data from Local System,Out1
+Data from Local System,Wevtutil
+Data from Local System,Forfiles
+Application Access Token,Peirates
+At,CrackMapExec
+At,at
+Obfuscated Files or Information,ShimRatReporter
+Obfuscated Files or Information,Empire
+Obfuscated Files or Information,CARROTBALL
+Obfuscated Files or Information,Sliver
+Obfuscated Files or Information,MCMD
+Obfuscated Files or Information,IronNetInjector
+Obfuscated Files or Information,Out1
+Obfuscated Files or Information,PcShare
+Obfuscated Files or Information,Donut
+Obfuscated Files or Information,PowerSploit
+Obfuscated Files or Information,Imminent Monitor
+Obfuscated Files or Information,Remcos
+File and Directory Discovery,CrackMapExec
+File and Directory Discovery,RemoteUtilities
+File and Directory Discovery,Forfiles
+File and Directory Discovery,PoshC2
+File and Directory Discovery,Rclone
+File and Directory Discovery,Koadic
+File and Directory Discovery,Imminent Monitor
+File and Directory Discovery,cmd
+File and Directory Discovery,Pupy
+File and Directory Discovery,Sliver
+File and Directory Discovery,SILENTTRINITY
+File and Directory Discovery,Remcos
+File and Directory Discovery,Empire
+DNS,Sliver
+DNS,Mythic
+Registry Run Keys / Startup Folder,Koadic
+Registry Run Keys / Startup Folder,QuasarRAT
+Registry Run Keys / Startup Folder,Empire
+Registry Run Keys / Startup Folder,MCMD
+Registry Run Keys / Startup Folder,PowerSploit
+Registry Run Keys / Startup Folder,SILENTTRINITY
+Registry Run Keys / Startup Folder,Remcos
+Registry Run Keys / Startup Folder,Pupy
+Ingress Tool Transfer,Sliver
+Ingress Tool Transfer,BITSAdmin
+Ingress Tool Transfer,esentutl
+Ingress Tool Transfer,Koadic
+Ingress Tool Transfer,ShimRatReporter
+Ingress Tool Transfer,CARROTBALL
+Ingress Tool Transfer,RemoteUtilities
+Ingress Tool Transfer,cmd
+Ingress Tool Transfer,MCMD
+Ingress Tool Transfer,Remcos
+Ingress Tool Transfer,Pupy
+Ingress Tool Transfer,Empire
+Ingress Tool Transfer,CSPY Downloader
+Ingress Tool Transfer,certutil
+Ingress Tool Transfer,ftp
+Ingress Tool Transfer,SILENTTRINITY
+Ingress Tool Transfer,Donut
+Ingress Tool Transfer,QuasarRAT
+Windows Command Shell,PcShare
+Windows Command Shell,cmd
+Windows Command Shell,Out1
+Windows Command Shell,QuasarRAT
+Windows Command Shell,Remcos
+Windows Command Shell,Koadic
+Windows Command Shell,MCMD
+Windows Command Shell,Empire
+Windows Command Shell,SILENTTRINITY
+Web Protocols,CSPY Downloader
+Web Protocols,ShimRatReporter
+Web Protocols,PoshC2
+Web Protocols,Sliver
+Web Protocols,Koadic
+Web Protocols,Out1
+Web Protocols,PcShare
+Web Protocols,Empire
+Web Protocols,Donut
+Web Protocols,Mythic
+Web Protocols,MCMD
+Web Protocols,Pupy
+System Information Discovery,Systeminfo
+System Information Discovery,SILENTTRINITY
+System Information Discovery,cmd
+System Information Discovery,ShimRatReporter
+System Information Discovery,Empire
+System Information Discovery,Pupy
+System Information Discovery,CrackMapExec
+System Information Discovery,Koadic
+System Information Discovery,PoshC2
+System Information Discovery,QuasarRAT
+File Deletion,Imminent Monitor
+File Deletion,PcShare
+File Deletion,SILENTTRINITY
+File Deletion,cmd
+File Deletion,SDelete
+File Deletion,CSPY Downloader
+Malicious File,CARROTBALL
+Malicious File,CSPY Downloader
+Email Addresses,AADInternals
+Spearphishing Link,AADInternals
+Bidirectional Communication,Empire
+Malicious File,CARROTBALL
+Malicious File,CSPY Downloader
