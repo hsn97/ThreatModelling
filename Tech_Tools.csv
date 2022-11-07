@@ -272,6 +272,160 @@ Data from Local System,Out1
 Data from Local System,Wevtutil
 Data from Local System,Forfiles
 Application Access Token,Peirates
+Exploitation for Privilege Escalation,Empire
+Exploitation for Privilege Escalation,PoshC2
+Domain Account,dsquery
+Domain Account,SILENTTRINITY
+Domain Account,Empire
+Domain Account,BloodHound
+Domain Account,PoshC2
+Domain Account,Net
+Domain Account,CrackMapExec
+Domain Account,AdFind
+Domain Groups,Net
+Domain Groups,SILENTTRINITY
+Domain Groups,dsquery
+Domain Groups,CrackMapExec
+Domain Groups,AdFind
+Domain Groups,BloodHound
+Credentials from Web Browsers,Imminent Monitor
+Credentials from Web Browsers,Mimikatz
+Credentials from Web Browsers,Pupy
+Credentials from Web Browsers,Empire
+Credentials from Web Browsers,QuasarRAT
+Credentials from Web Browsers,LaZagne
+Credentials from Web Browsers,SILENTTRINITY
+Cloud Accounts,Peirates
+Cloud Accounts,ROADTools
+Sharepoint,spwebmember
+Data from Local System,esentutl
+Data from Local System,MCMD
+Data from Local System,PcShare
+Data from Local System,QuasarRAT
+Data from Local System,Koadic
+Data from Local System,PowerSploit
+Data from Local System,Out1
+Data from Local System,Wevtutil
+Data from Local System,Forfiles
+Proxy,netsh
+Proxy,Remcos
+Proxy,QuasarRAT
+Proxy,PoshC2
+Proxy,HTRAN
+Email Addresses,AADInternals
+NTDS,Koadic
+NTDS,Impacket
+NTDS,CrackMapExec
+NTDS,esentutl
+Cloud Account,AADInternals
+DCSync,Mimikatz
+Data Destruction,SDelete
+Data Destruction,RawDisk
+Data from Local System,esentutl
+Data from Local System,MCMD
+Data from Local System,PcShare
+Data from Local System,QuasarRAT
+Data from Local System,Koadic
+Data from Local System,PowerSploit
+Data from Local System,Out1
+Data from Local System,Wevtutil
+Data from Local System,Forfiles
+Pass the Hash,CrackMapExec
+Pass the Hash,Mimikatz
+Pass the Hash,Empire
+Pass the Hash,PoshC2
+Pass the Hash,Pass-The-Hash Toolkit
+Local Email Collection,Empire
+Local Email Collection,Out1
+Local Email Collection,Pupy
+Remote Desktop Protocol,Imminent Monitor
+Remote Desktop Protocol,Koadic
+Remote Desktop Protocol,QuasarRAT
+Remote Desktop Protocol,Pupy
+LSASS Memory,Empire
+LSASS Memory,PowerSploit
+LSASS Memory,Pupy
+LSASS Memory,LaZagne
+LSASS Memory,Mimikatz
+LSASS Memory,SILENTTRINITY
+LSASS Memory,Lslsass
+LSASS Memory,PoshC2
+LSASS Memory,Windows Credential Editor
+LSASS Memory,Impacket
+Automated Collection,ROADTools
+Automated Collection,PoshC2
+Automated Collection,Mythic
+Automated Collection,Empire
+Automated Collection,ShimRatReporter
+Local Account,Pupy
+Local Account,Net
+Local Account,BloodHound
+Local Account,PowerSploit
+Local Account,Empire
+Local Account,PoshC2
+Windows Command Shell,PcShare
+Windows Command Shell,cmd
+Windows Command Shell,Out1
+Windows Command Shell,QuasarRAT
+Windows Command Shell,Remcos
+Windows Command Shell,Koadic
+Windows Command Shell,MCMD
+Windows Command Shell,Empire
+Windows Command Shell,SILENTTRINITY
+Match Legitimate Name or Location,PcShare
+Match Legitimate Name or Location,MCMD
+Match Legitimate Name or Location,ShimRatReporter
+Network Share Discovery,Empire
+Network Share Discovery,Pupy
+Network Share Discovery,Net
+Network Share Discovery,CrackMapExec
+Network Share Discovery,SILENTTRINITY
+Network Share Discovery,Koadic
+System Network Configuration Discovery,Arp
+System Network Configuration Discovery,Koadic
+System Network Configuration Discovery,ifconfig
+System Network Configuration Discovery,PoshC2
+System Network Configuration Discovery,QuasarRAT
+System Network Configuration Discovery,Nltest
+System Network Configuration Discovery,Pupy
+System Network Configuration Discovery,route
+System Network Configuration Discovery,Empire
+System Network Configuration Discovery,AdFind
+System Network Configuration Discovery,nbtstat
+System Network Configuration Discovery,ipconfig
+System Network Configuration Discovery,ShimRatReporter
+System Network Configuration Discovery,Sliver
+System Network Configuration Discovery,NBTscan
+System Network Configuration Discovery,CrackMapExec
+System Network Configuration Discovery,PcShare
+System Network Connections Discovery,Net
+System Network Connections Discovery,Empire
+System Network Connections Discovery,nbtstat
+System Network Connections Discovery,ShimRatReporter
+System Network Connections Discovery,netstat
+System Network Connections Discovery,Pupy
+System Network Connections Discovery,CrackMapExec
+System Network Connections Discovery,PoshC2
+System Network Connections Discovery,Sliver
+Process Discovery,SILENTTRINITY
+Process Discovery,IronNetInjector
+Process Discovery,PcShare
+Process Discovery,ShimRatReporter
+Process Discovery,PowerSploit
+Process Discovery,Imminent Monitor
+Process Discovery,Tasklist
+Process Discovery,Donut
+Process Discovery,Empire
+Process Discovery,Pupy
+Spearphishing Link,AADInternals
+System Service Discovery,Net
+System Service Discovery,SILENTTRINITY
+System Service Discovery,Tasklist
+System Service Discovery,PoshC2
+Remote Email Collection,MailSniper
+Archive via Utility,Rclone
+Archive via Utility,PoshC2
+Archive via Utility,Pupy
 At,CrackMapExec
 At,at
 Obfuscated Files or Information,ShimRatReporter
@@ -364,6 +518,156 @@ File Deletion,SILENTTRINITY
 File Deletion,cmd
 File Deletion,SDelete
 File Deletion,CSPY Downloader
+Rootkit,HTRAN
+Ingress Tool Transfer,Sliver
+Ingress Tool Transfer,BITSAdmin
+Ingress Tool Transfer,esentutl
+Ingress Tool Transfer,Koadic
+Ingress Tool Transfer,ShimRatReporter
+Ingress Tool Transfer,CARROTBALL
+Ingress Tool Transfer,RemoteUtilities
+Ingress Tool Transfer,cmd
+Ingress Tool Transfer,MCMD
+Ingress Tool Transfer,Remcos
+Ingress Tool Transfer,Pupy
+Ingress Tool Transfer,Empire
+Ingress Tool Transfer,CSPY Downloader
+Ingress Tool Transfer,certutil
+Ingress Tool Transfer,ftp
+Ingress Tool Transfer,SILENTTRINITY
+Ingress Tool Transfer,Donut
+Ingress Tool Transfer,QuasarRAT
+Code Signing,QuasarRAT
+Code Signing,CSPY Downloader
+File and Directory Discovery,CrackMapExec
+File and Directory Discovery,RemoteUtilities
+File and Directory Discovery,Forfiles
+File and Directory Discovery,PoshC2
+File and Directory Discovery,Rclone
+File and Directory Discovery,Koadic
+File and Directory Discovery,Imminent Monitor
+File and Directory Discovery,cmd
+File and Directory Discovery,Pupy
+File and Directory Discovery,Sliver
+File and Directory Discovery,SILENTTRINITY
+File and Directory Discovery,Remcos
+File and Directory Discovery,Empire
+Process Discovery,SILENTTRINITY
+Process Discovery,IronNetInjector
+Process Discovery,PcShare
+Process Discovery,ShimRatReporter
+Process Discovery,PowerSploit
+Process Discovery,Imminent Monitor
+Process Discovery,Tasklist
+Process Discovery,Donut
+Process Discovery,Empire
+Process Discovery,Pupy
+Standard Encoding,Sliver
+Hidden Window,QuasarRAT
+Hidden Window,MCMD
+Hidden Window,SILENTTRINITY
+Hidden Window,Koadic
+Obfuscated Files or Information,ShimRatReporter
+Obfuscated Files or Information,Empire
+Obfuscated Files or Information,CARROTBALL
+Obfuscated Files or Information,Sliver
+Obfuscated Files or Information,MCMD
+Obfuscated Files or Information,IronNetInjector
+Obfuscated Files or Information,Out1
+Obfuscated Files or Information,PcShare
+Obfuscated Files or Information,Donut
+Obfuscated Files or Information,PowerSploit
+Obfuscated Files or Information,Imminent Monitor
+Obfuscated Files or Information,Remcos
+Command and Scripting Interpreter,Donut
+Command and Scripting Interpreter,Imminent Monitor
+Command and Scripting Interpreter,Empire
+Malicious File,CARROTBALL
+Malicious File,CSPY Downloader
+Windows Service,Empire
+Windows Service,PowerSploit
+Windows Service,PsExec
+Windows Service,SILENTTRINITY
+Rundll32,Koadic
+Rundll32,PcShare
+System Network Configuration Discovery,Arp
+System Network Configuration Discovery,Koadic
+System Network Configuration Discovery,ifconfig
+System Network Configuration Discovery,PoshC2
+System Network Configuration Discovery,QuasarRAT
+System Network Configuration Discovery,Nltest
+System Network Configuration Discovery,Pupy
+System Network Configuration Discovery,route
+System Network Configuration Discovery,Empire
+System Network Configuration Discovery,AdFind
+System Network Configuration Discovery,nbtstat
+System Network Configuration Discovery,ipconfig
+System Network Configuration Discovery,ShimRatReporter
+System Network Configuration Discovery,Sliver
+System Network Configuration Discovery,NBTscan
+System Network Configuration Discovery,CrackMapExec
+System Network Configuration Discovery,PcShare
+Registry Run Keys / Startup Folder,Koadic
+Registry Run Keys / Startup Folder,QuasarRAT
+Registry Run Keys / Startup Folder,Empire
+Registry Run Keys / Startup Folder,MCMD
+Registry Run Keys / Startup Folder,PowerSploit
+Registry Run Keys / Startup Folder,SILENTTRINITY
+Registry Run Keys / Startup Folder,Remcos
+Registry Run Keys / Startup Folder,Pupy
+PowerShell,PowerSploit
+PowerShell,BloodHound
+PowerShell,AADInternals
+PowerShell,Donut
+PowerShell,Koadic
+PowerShell,ConnectWise
+PowerShell,Empire
+PowerShell,CrackMapExec
+PowerShell,Pupy
+PowerShell,SILENTTRINITY
+System Owner/User Discovery,Koadic
+System Owner/User Discovery,Empire
+System Owner/User Discovery,QuasarRAT
+System Owner/User Discovery,BloodHound
+System Owner/User Discovery,NBTscan
+System Owner/User Discovery,SILENTTRINITY
+System Owner/User Discovery,Pupy
+Web Protocols,CSPY Downloader
+Web Protocols,ShimRatReporter
+Web Protocols,PoshC2
+Web Protocols,Sliver
+Web Protocols,Koadic
+Web Protocols,Out1
+Web Protocols,PcShare
+Web Protocols,Empire
+Web Protocols,Donut
+Web Protocols,Mythic
+Web Protocols,MCMD
+Web Protocols,Pupy
+Deobfuscate/Decode Files or Information,certutil
+Deobfuscate/Decode Files or Information,IronNetInjector
+Deobfuscate/Decode Files or Information,PcShare
+Deobfuscate/Decode Files or Information,Expand
+Deobfuscate/Decode Files or Information,Imminent Monitor
+System Information Discovery,Systeminfo
+System Information Discovery,SILENTTRINITY
+System Information Discovery,cmd
+System Information Discovery,ShimRatReporter
+System Information Discovery,Empire
+System Information Discovery,Pupy
+System Information Discovery,CrackMapExec
+System Information Discovery,Koadic
+System Information Discovery,PoshC2
+System Information Discovery,QuasarRAT
+Modify Registry,QuasarRAT
+Modify Registry,CrackMapExec
+Modify Registry,Remcos
+Modify Registry,CSPY Downloader
+Modify Registry,AADInternals
+Modify Registry,Reg
+Modify Registry,SILENTTRINITY
+Modify Registry,PcShare
+Regsvr32,Koadic
 Malicious File,CARROTBALL
 Malicious File,CSPY Downloader
 Email Addresses,AADInternals

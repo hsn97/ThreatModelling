@@ -13,5 +13,18 @@ APT29,Tasklist
 APT29,Net
 APT29,ipconfig
 APT29,Sliver
+LAPSUS$,Mimikatz
+APT1,pwdump
+APT1,Mimikatz
+APT1,xCmd
+APT1,gsecdump
+APT1,ipconfig
+APT1,Lslsass
+APT1,Cachedump
+APT1,Tasklist
+APT1,PsExec
+APT1,Net
+APT1,Pass-The-Hash Toolkit
 APT18,cmd
+APT19,Empire
 APT12,HTRAN

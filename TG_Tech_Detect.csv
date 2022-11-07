@@ -1,0 +1,1585 @@
+Threat Group,Technique Used,Detection
+APT29,Malicious Link,network traffic
+APT29,Additional Email Delegate Permissions,group
+APT29,Accessibility Features,detection
+APT29,Accessibility Features,detection
+APT29,Accessibility Features,Process Execution
+APT29,Accessibility Features,Windows Registry
+APT29,Accessibility Features,File monitoring
+APT29,Accessibility Features,AutoRuns
+APT29,Accessibility Features,Process Execution
+APT29,Accessibility Features,AutoRuns
+APT29,Accessibility Features,Windows Registry
+APT29,Accessibility Features,File monitoring
+APT29,Permission Groups Discovery,Process CMD Line
+APT29,Permission Groups Discovery,Process Execution
+APT29,Permission Groups Discovery,API monitoring
+APT29,Permission Groups Discovery,Process CMD Line
+APT29,Permission Groups Discovery,Process Execution
+APT29,Permission Groups Discovery,API monitoring
+APT29,Permission Groups Discovery,process
+APT29,Permission Groups Discovery,process
+APT29,Permission Groups Discovery,process
+APT29,Permission Groups Discovery,command
+APT29,Permission Groups Discovery,command
+APT29,Permission Groups Discovery,group
+APT29,Permission Groups Discovery,group
+APT29,Permission Groups Discovery,application log
+APT29,Spearphishing via Service,SSL/TLS inspection
+APT29,Spearphishing via Service,Anti-virus
+APT29,Spearphishing via Service,Web proxy
+APT29,Spearphishing via Service,SSL/TLS inspection
+APT29,Spearphishing via Service,Anti-virus
+APT29,Spearphishing via Service,Web proxy
+APT29,Masquerading,Process Execution
+APT29,Masquerading,File monitoring
+APT29,Masquerading,File Hashing
+APT29,Masquerading,Binary file metadata
+APT29,Masquerading,Process Execution
+APT29,Masquerading,File monitoring
+APT29,Masquerading,File Hashing
+APT29,Masquerading,Binary file metadata
+APT29,Masquerading,image
+APT29,Masquerading,command
+APT29,Masquerading,command
+APT29,Masquerading,service
+APT29,Masquerading,service
+APT29,Masquerading,service
+APT29,Masquerading,service
+APT29,Masquerading,service
+APT29,Masquerading,scheduled job
+APT29,Masquerading,scheduled job
+APT29,Masquerading,scheduled job
+APT29,Masquerading,scheduled job
+APT29,Masquerading,scheduled job
+APT29,Masquerading,scheduled job
+APT29,Masquerading,scheduled job
+APT29,Masquerading,file
+APT29,Masquerading,file
+APT29,Masquerading,file
+APT29,Masquerading,process
+APT29,Masquerading,file
+APT29,Masquerading,file
+APT29,Valid Accounts,Authentication logs
+APT29,Valid Accounts,Process Execution
+APT29,Valid Accounts,Authentication logs
+APT29,Valid Accounts,Process Execution
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,user account
+APT29,Valid Accounts,logon session
+APT29,Valid Accounts,logon session
+APT29,Valid Accounts,logon session
+APT29,Exploitation for Privilege Escalation,1000
+APT29,Exploitation for Privilege Escalation,Process Execution
+APT29,Exploitation for Privilege Escalation,Application Logs
+APT29,Exploitation for Privilege Escalation,1000
+APT29,Exploitation for Privilege Escalation,Process Execution
+APT29,Exploitation for Privilege Escalation,Application Logs
+APT29,Exploitation for Privilege Escalation,driver
+APT29,Non-Application Layer Protocol,Windows Firewall
+APT29,Non-Application Layer Protocol,Process Execution
+APT29,Non-Application Layer Protocol,Malware reverse engineering
+APT29,Non-Application Layer Protocol,Packet capture
+APT29,Non-Application Layer Protocol,Netflow/Enclave netflow
+APT29,Non-Application Layer Protocol,Windows Firewall
+APT29,Non-Application Layer Protocol,Process Execution
+APT29,Non-Application Layer Protocol,Malware reverse engineering
+APT29,Non-Application Layer Protocol,Packet capture
+APT29,Non-Application Layer Protocol,Netflow/Enclave netflow
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Non-Application Layer Protocol,network traffic
+APT29,Bidirectional Communication,network traffic
+APT29,SMB/Windows Admin Shares,Windows Firewall
+APT29,SMB/Windows Admin Shares,Authentication logs
+APT29,SMB/Windows Admin Shares,Process CMD Line
+APT29,SMB/Windows Admin Shares,Process Execution
+APT29,SMB/Windows Admin Shares,Windows Firewall
+APT29,SMB/Windows Admin Shares,Authentication logs
+APT29,SMB/Windows Admin Shares,Process CMD Line
+APT29,SMB/Windows Admin Shares,Process Execution
+APT29,Indicator Removal,a
+APT29,Indicator Removal,b
+APT29,Indicator Removal,File monitoring
+APT29,Indicator Removal,Process CMD Line
+APT29,Indicator Removal,Process Execution
+APT29,Indicator Removal,File monitoring
+APT29,Indicator Removal,Process CMD Line
+APT29,Indicator Removal,Process Execution
+APT29,Indicator Removal,process
+APT29,Indicator Removal,process
+APT29,Indicator Removal,process
+APT29,Indicator Removal,file
+APT29,Indicator Removal,file
+APT29,Indicator Removal,file
+APT29,Indicator Removal,file
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,windows registry
+APT29,Indicator Removal,process
+APT29,Indicator Removal,process
+APT29,Indicator Removal,command
+APT29,Indicator Removal,command
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,network traffic
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,user account
+APT29,Indicator Removal,file
+APT29,Indicator Removal,file
+APT29,Indicator Removal,file
+APT29,Deobfuscate/Decode Files or Information,Process CMD Line
+APT29,Deobfuscate/Decode Files or Information,Process Execution
+APT29,Deobfuscate/Decode Files or Information,File monitoring
+APT29,Deobfuscate/Decode Files or Information,Process CMD Line
+APT29,Deobfuscate/Decode Files or Information,Process Execution
+APT29,Deobfuscate/Decode Files or Information,File monitoring
+APT29,Deobfuscate/Decode Files or Information,process
+APT29,Deobfuscate/Decode Files or Information,process
+APT29,Deobfuscate/Decode Files or Information,process
+APT29,Deobfuscate/Decode Files or Information,file
+APT29,Deobfuscate/Decode Files or Information,file
+APT29,Deobfuscate/Decode Files or Information,script
+APT29,Deobfuscate/Decode Files or Information,script
+APT29,Internet Connection Discovery,process
+APT29,Credentials from Password Stores,process
+APT29,Credentials from Password Stores,process
+APT29,Credentials from Password Stores,process
+APT29,Credentials from Password Stores,file
+APT29,Credentials from Password Stores,file
+APT29,Credentials from Password Stores,file
+APT29,Credentials from Password Stores,file
+APT29,Credentials from Password Stores,command
+APT29,Credentials from Password Stores,command
+APT29,Credentials from Password Stores,process
+APT29,Credentials from Password Stores,process
+APT29,Credentials from Password Stores,process
+APT29,Credentials from Password Stores,process
+APT29,Data from Information Repositories,Application Logs
+APT29,Data from Information Repositories,Authentication logs
+APT29,Data from Information Repositories,Data loss prevention
+APT29,Data from Information Repositories,Third-party application logs
+APT29,Data from Information Repositories,Application Logs
+APT29,Data from Information Repositories,Authentication logs
+APT29,Data from Information Repositories,Data loss prevention
+APT29,Data from Information Repositories,Third-party application logs
+APT29,Data from Information Repositories,logon session
+APT29,Data from Information Repositories,logon session
+APT29,Data from Information Repositories,logon session
+APT29,Data from Information Repositories,application log
+APT29,Code Signing,Binary file metadata
+APT29,Code Signing,LMD - File Hash
+APT29,Code Signing,Binary file metadata
+APT29,Code Signing, - File Hash
+APT29,System Information Discovery,Process CMD Line
+APT29,System Information Discovery,Process Execution
+APT29,System Information Discovery,Process CMD Line
+APT29,System Information Discovery,Process Execution
+APT29,System Information Discovery,instance
+APT29,System Information Discovery,process
+APT29,System Information Discovery,process
+APT29,System Information Discovery,process
+APT29,System Information Discovery,command
+APT29,System Information Discovery,command
+APT29,System Information Discovery,process
+APT29,System Information Discovery,process
+APT29,Cloud Account,user account
+APT29,Bypass User Account Control,Process Execution
+APT29,Bypass User Account Control,Process CMD Line
+APT29,Bypass User Account Control,Authentication logs
+APT29,Bypass User Account Control,System calls
+APT29,Bypass User Account Control,Process Execution
+APT29,Bypass User Account Control,Process CMD Line
+APT29,Bypass User Account Control,Authentication logs
+APT29,Bypass User Account Control,System calls
+APT29,Exploit Public-Facing Application,Application logs
+APT29,Exploit Public-Facing Application,Packet capture
+APT29,Exploit Public-Facing Application,Web logs
+APT29,Exploit Public-Facing Application,Web application firewall logs
+APT29,Exploit Public-Facing Application,Application logs
+APT29,Exploit Public-Facing Application,Packet capture
+APT29,Exploit Public-Facing Application,Web logs
+APT29,Exploit Public-Facing Application,Web application firewall logs
+APT29,Exploit Public-Facing Application,application log
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Exploit Public-Facing Application,network traffic
+APT29,Domain Accounts,user account
+APT29,Web Cookies,logon session
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Dynamic Resolution,network traffic
+APT29,Remote Data Staging,file
+APT29,Account Discovery,b
+APT29,Account Discovery,Process CMD Line
+APT29,Account Discovery,Process Execution
+APT29,Account Discovery,API monitoring
+APT29,Account Discovery,Process CMD Line
+APT29,Account Discovery,Process Execution
+APT29,Account Discovery,API monitoring
+APT29,Account Discovery,user account
+APT29,Account Discovery,command
+APT29,Account Discovery,command
+APT29,Account Discovery,process
+APT29,Account Discovery,process
+APT29,Account Discovery,process
+APT29,Account Discovery,file
+APT29,Account Discovery,file
+APT29,Account Discovery,file
+APT29,Account Discovery,file
+APT29,Steganography,network traffic
+APT29,File and Directory Discovery,File monitoring
+APT29,File and Directory Discovery,Process CMD Line
+APT29,File and Directory Discovery,Process Execution
+APT29,File and Directory Discovery,File monitoring
+APT29,File and Directory Discovery,Process CMD Line
+APT29,File and Directory Discovery,Process Execution
+APT29,File and Directory Discovery,process
+APT29,File and Directory Discovery,process
+APT29,File and Directory Discovery,process
+APT29,File and Directory Discovery,command
+APT29,File and Directory Discovery,command
+APT29,File and Directory Discovery,process
+APT29,File and Directory Discovery,process
+APT29,Exploitation for Client Execution,Process Execution
+APT29,Exploitation for Client Execution,Windows Firewall
+APT29,Exploitation for Client Execution,Anti-virus
+APT29,Exploitation for Client Execution,System calls
+APT29,Exploitation for Client Execution,Process Execution
+APT29,Exploitation for Client Execution,Windows Firewall
+APT29,Exploitation for Client Execution,Anti-virus
+APT29,Exploitation for Client Execution,System calls
+APT29,Remote Email Collection,network traffic
+APT29,Remote System Discovery,Process Execution
+APT29,Remote System Discovery,Process CMD Line
+APT29,Remote System Discovery,Win Firewall
+APT29,Remote System Discovery,Network protocol analysis
+APT29,Remote System Discovery,Process Execution
+APT29,Remote System Discovery,Process CMD Line
+APT29,Remote System Discovery,Windows Firewall
+APT29,Remote System Discovery,Network protocol analysis
+APT29,Remote System Discovery,process
+APT29,Remote System Discovery,process
+APT29,Remote System Discovery,process
+APT29,Remote System Discovery,command
+APT29,Remote System Discovery,command
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,network traffic
+APT29,Remote System Discovery,file
+APT29,Remote System Discovery,file
+APT29,Remote System Discovery,file
+APT29,Remote System Discovery,file
+APT29,Process Discovery,Process CMD Line
+APT29,Process Discovery,Process Execution
+APT29,Process Discovery,Process CMD Line
+APT29,Process Discovery,Process Execution
+APT29,Process Discovery,process
+APT29,Process Discovery,process
+APT29,Process Discovery,process
+APT29,Process Discovery,command
+APT29,Process Discovery,command
+APT29,Process Discovery,process
+APT29,Process Discovery,process
+APT29,Steal Web Session Cookie,file
+APT29,Steal Web Session Cookie,file
+APT29,Steal Web Session Cookie,file
+APT29,Steal Web Session Cookie,file
+APT29,Steal Web Session Cookie,process
+APT29,Steal Web Session Cookie,process
+APT29,Vulnerability Scanning,network traffic
+APT29,Obfuscated Files or Information,Windows Firewall
+APT29,Obfuscated Files or Information,Process CMD Line
+APT29,Obfuscated Files or Information,Windows event logs
+APT29,Obfuscated Files or Information,File monitoring
+APT29,Obfuscated Files or Information,Bninary file metadata
+APT29,Obfuscated Files or Information,Malware reverse engineering
+APT29,Obfuscated Files or Information,Environment variable
+APT29,Obfuscated Files or Information,Network protocol analysis
+APT29,Obfuscated Files or Information,detection system
+APT29,Obfuscated Files or Information,Email gateway
+APT29,Obfuscated Files or Information,SSL/TLS inspection
+APT29,Obfuscated Files or Information,Windows Firewall
+APT29,Obfuscated Files or Information,Process CMD Line
+APT29,Obfuscated Files or Information,File monitoring
+APT29,Obfuscated Files or Information,Bninary file metadata
+APT29,Obfuscated Files or Information,Windows event logs
+APT29,Obfuscated Files or Information,Network protocol analysis
+APT29,Obfuscated Files or Information,Malware reverse engineering
+APT29,Obfuscated Files or Information,Environment variable
+APT29,Obfuscated Files or Information,Network intrusion detection system
+APT29,Obfuscated Files or Information,Email gateway
+APT29,Obfuscated Files or Information,SSL/TLS inspection
+APT29,Obfuscated Files or Information,file
+APT29,Obfuscated Files or Information,file
+APT29,Obfuscated Files or Information,file
+APT29,Obfuscated Files or Information,file
+APT29,Obfuscated Files or Information,file
+APT29,Obfuscated Files or Information,file
+APT29,Obfuscated Files or Information,process
+APT29,Obfuscated Files or Information,process
+APT29,Obfuscated Files or Information,process
+APT29,Obfuscated Files or Information,command
+APT29,Obfuscated Files or Information,command
+APT29,Obfuscated Files or Information,command
+APT29,Obfuscated Files or Information,command
+APT29,Trusted Relationship,Application Logs
+APT29,Trusted Relationship,Authentication logs
+APT29,Trusted Relationship,Third-party application logs
+APT29,Trusted Relationship,Application Logs
+APT29,Trusted Relationship,Authentication logs
+APT29,Trusted Relationship,Third-party application logs
+APT29,Trusted Relationship,application log
+APT29,Trusted Relationship,logon session
+APT29,Trusted Relationship,logon session
+APT29,Trusted Relationship,logon session
+APT29,Trusted Relationship,logon session
+APT29,Encrypted Channel,network traffic
+APT29,Encrypted Channel,network traffic
+APT29,Encrypted Channel,network traffic
+APT29,Encrypted Channel,network traffic
+APT29,Encrypted Channel,network traffic
+APT29,Encrypted Channel,network traffic
+APT29,Encrypted Channel,network traffic
+APT29,Domain Trust Discovery,process
+APT29,Domain Trust Discovery,process
+APT29,Domain Trust Discovery,process
+APT29,Domain Trust Discovery,command
+APT29,Domain Trust Discovery,command
+APT29,Domain Trust Discovery,process
+APT29,Domain Trust Discovery,process
+APT29,Domain Trust Discovery,script
+APT29,Domain Trust Discovery,script
+APT29,Remote Desktop Protocol,Process Execution
+APT29,Remote Desktop Protocol,Authentication logs
+APT29,Remote Desktop Protocol,Netflow/Enclave netflow
+APT29,Remote Desktop Protocol,Process Execution
+APT29,Remote Desktop Protocol,Authentication logs
+APT29,Remote Desktop Protocol,Netflow/Enclave netflow
+APT29,Additional Cloud Roles,user account
+APT29,Use Alternate Authentication Material,logon session
+APT29,Use Alternate Authentication Material,logon session
+APT29,Use Alternate Authentication Material,logon session
+APT29,Use Alternate Authentication Material,web credential
+APT29,Use Alternate Authentication Material,application log
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,user account
+APT29,Use Alternate Authentication Material,active directory
+APT29,Web Session Cookie,web credential
+APT29,Ingress Tool Transfer,detection
+APT29,Ingress Tool Transfer,detection
+APT29,Ingress Tool Transfer,File monitoring
+APT29,Ingress Tool Transfer,Windows Firewall
+APT29,Ingress Tool Transfer,Process Execution
+APT29,Ingress Tool Transfer,Packet capture
+APT29,Ingress Tool Transfer,Netflow/Enclave netflow
+APT29,Ingress Tool Transfer,Network protocol analysis
+APT29,Ingress Tool Transfer,File monitoring
+APT29,Ingress Tool Transfer,Windows Firewall
+APT29,Ingress Tool Transfer,Process Execution
+APT29,Ingress Tool Transfer,Packet capture
+APT29,Ingress Tool Transfer,Netflow/Enclave netflow
+APT29,Ingress Tool Transfer,Network protocol analysis
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,network traffic
+APT29,Ingress Tool Transfer,file
+APT29,Domain Fronting,SSL/TLS inspection
+APT29,Domain Fronting,Packet capture
+APT29,Domain Fronting,SSL/TLS inspection
+APT29,Domain Fronting,Packet capture
+APT29,Windows Management Instrumentation,Process CMD Line
+APT29,Windows Management Instrumentation,Process Execution
+APT29,Windows Management Instrumentation,Authentication logs
+APT29,Windows Management Instrumentation,Netflow/Enclave netflow
+APT29,Windows Management Instrumentation,Process CMD Line
+APT29,Windows Management Instrumentation,Process Execution
+APT29,Windows Management Instrumentation,Authentication logs
+APT29,Windows Management Instrumentation,Netflow/Enclave netflow
+APT29,Windows Management Instrumentation,command
+APT29,Windows Management Instrumentation,command
+APT29,Windows Management Instrumentation,process
+APT29,Windows Management Instrumentation,process
+APT29,Windows Management Instrumentation,process
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Windows Management Instrumentation,network traffic
+APT29,Spearphishing Link,Packet capture
+APT29,Spearphishing Link,Web proxy
+APT29,Spearphishing Link,Email gateway
+APT29,Spearphishing Link,Detonation chamber
+APT29,Spearphishing Link,SSL/TLS inspection
+APT29,Spearphishing Link,DNS records
+APT29,Spearphishing Link,Mail server
+APT29,Spearphishing Link,Packet capture
+APT29,Spearphishing Link,Web proxy
+APT29,Spearphishing Link,Email gateway
+APT29,Spearphishing Link,Detonation chamber
+APT29,Spearphishing Link,SSL/TLS inspection
+APT29,Spearphishing Link,DNS records
+APT29,Spearphishing Link,Mail server
+APT29,External Remote Services,Authentication logs
+APT29,External Remote Services,Authentication logs
+APT29,External Remote Services,application log
+APT29,External Remote Services,logon session
+APT29,External Remote Services,network traffic
+APT29,External Remote Services,network traffic
+APT29,External Remote Services,network traffic
+APT29,External Remote Services,network traffic
+APT29,External Remote Services,network traffic
+APT29,External Remote Services,network traffic
+APT29,External Remote Services,network traffic
+APT29,Data from Local System,Process Execution
+APT29,Data from Local System,Process CMD Line
+APT29,Data from Local System,PowerShell Logs
+APT29,Data from Local System,File monitoring
+APT29,Data from Local System,WMI
+APT29,Data from Local System,Process Execution
+APT29,Data from Local System,Process CMD Line
+APT29,Data from Local System,PowerShell Logs
+APT29,Data from Local System,File monitoring
+APT29,Data from Local System,WMI
+APT29,Data from Local System,file
+APT29,Data from Local System,file
+APT29,Data from Local System,file
+APT29,Data from Local System,file
+APT29,Data from Local System,command
+APT29,Data from Local System,command
+APT29,Application Access Token,web credential
+LAPSUS$,Email Forwarding Rule,application log
+LAPSUS$,Exploitation for Privilege Escalation,1000
+LAPSUS$,Exploitation for Privilege Escalation,Process Execution
+LAPSUS$,Exploitation for Privilege Escalation,Application Logs
+LAPSUS$,Exploitation for Privilege Escalation,1000
+LAPSUS$,Exploitation for Privilege Escalation,Process Execution
+LAPSUS$,Exploitation for Privilege Escalation,Application Logs
+LAPSUS$,Exploitation for Privilege Escalation,driver
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,user account
+LAPSUS$,Account Access Removal,active directory
+LAPSUS$,Multi-Factor Authentication Interception,MFA
+LAPSUS$,Multi-Factor Authentication Interception,windows registry
+LAPSUS$,Multi-Factor Authentication Interception,windows registry
+LAPSUS$,Multi-Factor Authentication Interception,windows registry
+LAPSUS$,Multi-Factor Authentication Interception,windows registry
+LAPSUS$,Multi-Factor Authentication Interception,driver
+LAPSUS$,Multi-Factor Authentication Interception,process
+LAPSUS$,Multi-Factor Authentication Interception,process
+LAPSUS$,Confluence,logon session
+LAPSUS$,Data from Information Repositories,Application Logs
+LAPSUS$,Data from Information Repositories,Authentication logs
+LAPSUS$,Data from Information Repositories,Data loss prevention
+LAPSUS$,Data from Information Repositories,Third-party application logs
+LAPSUS$,Data from Information Repositories,Application Logs
+LAPSUS$,Data from Information Repositories,Authentication logs
+LAPSUS$,Data from Information Repositories,Data loss prevention
+LAPSUS$,Data from Information Repositories,Third-party application logs
+LAPSUS$,Data from Information Repositories,logon session
+LAPSUS$,Data from Information Repositories,logon session
+LAPSUS$,Data from Information Repositories,logon session
+LAPSUS$,Data from Information Repositories,application log
+LAPSUS$,External Remote Services,Authentication logs
+LAPSUS$,External Remote Services,Authentication logs
+LAPSUS$,External Remote Services,application log
+LAPSUS$,External Remote Services,logon session
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,External Remote Services,network traffic
+LAPSUS$,Trusted Relationship,Application Logs
+LAPSUS$,Trusted Relationship,Authentication logs
+LAPSUS$,Trusted Relationship,Third-party application logs
+LAPSUS$,Trusted Relationship,Application Logs
+LAPSUS$,Trusted Relationship,Authentication logs
+LAPSUS$,Trusted Relationship,Third-party application logs
+LAPSUS$,Trusted Relationship,application log
+LAPSUS$,Trusted Relationship,logon session
+LAPSUS$,Trusted Relationship,logon session
+LAPSUS$,Trusted Relationship,logon session
+LAPSUS$,Trusted Relationship,logon session
+LAPSUS$,Additional Cloud Roles,user account
+LAPSUS$,Sharepoint,logon session
+LAPSUS$,Data from Local System,Process Execution
+LAPSUS$,Data from Local System,Process CMD Line
+LAPSUS$,Data from Local System,PowerShell Logs
+LAPSUS$,Data from Local System,File monitoring
+LAPSUS$,Data from Local System,WMI
+LAPSUS$,Data from Local System,Process Execution
+LAPSUS$,Data from Local System,Process CMD Line
+LAPSUS$,Data from Local System,PowerShell Logs
+LAPSUS$,Data from Local System,File monitoring
+LAPSUS$,Data from Local System,WMI
+LAPSUS$,Data from Local System,file
+LAPSUS$,Data from Local System,file
+LAPSUS$,Data from Local System,file
+LAPSUS$,Data from Local System,file
+LAPSUS$,Data from Local System,command
+LAPSUS$,Data from Local System,command
+LAPSUS$,Valid Accounts,Authentication logs
+LAPSUS$,Valid Accounts,Process Execution
+LAPSUS$,Valid Accounts,Authentication logs
+LAPSUS$,Valid Accounts,Process Execution
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,user account
+LAPSUS$,Valid Accounts,logon session
+LAPSUS$,Valid Accounts,logon session
+LAPSUS$,Valid Accounts,logon session
+LAPSUS$,Delete Cloud Instance,instance
+LAPSUS$,Create Cloud Instance,instance
+LAPSUS$,Proxy,Windows Firewall
+LAPSUS$,Proxy,Process Execution
+LAPSUS$,Proxy,Netflow/Enclave netflow
+LAPSUS$,Proxy,Packet capture
+LAPSUS$,Proxy,Windows Firewall
+LAPSUS$,Proxy,Process Execution
+LAPSUS$,Proxy,Netflow/Enclave netflow
+LAPSUS$,Proxy,Packet capture
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,Proxy,network traffic
+LAPSUS$,User Execution,Process CMD Line
+LAPSUS$,User Execution,Process Execution
+LAPSUS$,User Execution,Anti-virus
+LAPSUS$,User Execution,Process CMD Line
+LAPSUS$,User Execution,Process Execution
+LAPSUS$,User Execution,Anti-virus
+LAPSUS$,User Execution,application log
+LAPSUS$,User Execution,instance
+LAPSUS$,User Execution,instance
+LAPSUS$,User Execution,instance
+LAPSUS$,User Execution,instance
+LAPSUS$,User Execution,image
+LAPSUS$,User Execution,command
+LAPSUS$,User Execution,command
+LAPSUS$,User Execution,container
+LAPSUS$,User Execution,container
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,network traffic
+LAPSUS$,User Execution,file
+LAPSUS$,User Execution,process
+LAPSUS$,User Execution,process
+LAPSUS$,User Execution,process
+LAPSUS$,Data Destruction,process
+LAPSUS$,Data Destruction,process
+LAPSUS$,Data Destruction,process
+LAPSUS$,Data Destruction,command
+LAPSUS$,Data Destruction,command
+LAPSUS$,Data Destruction,file
+LAPSUS$,Data Destruction,file
+LAPSUS$,Data Destruction,file
+LAPSUS$,Data Destruction,file
+LAPSUS$,Data Destruction,image
+LAPSUS$,Data Destruction,instance
+LAPSUS$,Data Destruction,instance
+LAPSUS$,Data Destruction,snapshot
+LAPSUS$,Data Destruction,cloud storage
+LAPSUS$,Data Destruction,cloud storage
+LAPSUS$,Data Destruction,volume
+APT1,Data from Local System,Process Execution
+APT1,Data from Local System,Process CMD Line
+APT1,Data from Local System,PowerShell Logs
+APT1,Data from Local System,File monitoring
+APT1,Data from Local System,WMI
+APT1,Data from Local System,Process Execution
+APT1,Data from Local System,Process CMD Line
+APT1,Data from Local System,PowerShell Logs
+APT1,Data from Local System,File monitoring
+APT1,Data from Local System,WMI
+APT1,Data from Local System,file
+APT1,Data from Local System,file
+APT1,Data from Local System,file
+APT1,Data from Local System,file
+APT1,Data from Local System,command
+APT1,Data from Local System,command
+APT1,Remote Desktop Protocol,Process Execution
+APT1,Remote Desktop Protocol,Authentication logs
+APT1,Remote Desktop Protocol,Netflow/Enclave netflow
+APT1,Remote Desktop Protocol,Process Execution
+APT1,Remote Desktop Protocol,Authentication logs
+APT1,Remote Desktop Protocol,Netflow/Enclave netflow
+APT1,Automated Collection,Process CMD Line
+APT1,Automated Collection,File monitoring
+APT1,Automated Collection,Data loss prevention
+APT1,Automated Collection,Process CMD Line
+APT1,Automated Collection,File monitoring
+APT1,Automated Collection,Data loss prevention
+APT1,Automated Collection,file
+APT1,Automated Collection,file
+APT1,Automated Collection,file
+APT1,Automated Collection,file
+APT1,Automated Collection,command
+APT1,Automated Collection,command
+APT1,Automated Collection,script
+APT1,Automated Collection,script
+APT1,Network Share Discovery,level
+APT1,Network Share Discovery,level
+APT1,Network Share Discovery,Process Execution
+APT1,Network Share Discovery,Process CMD Line
+APT1,Network Share Discovery,Windows Firewall
+APT1,Network Share Discovery,Net Shares
+APT1,Network Share Discovery,Network protocol analysis
+APT1,Network Share Discovery,Process Execution
+APT1,Network Share Discovery,Process CMD Line
+APT1,Network Share Discovery,Windows Firewall
+APT1,Network Share Discovery,Net Shares
+APT1,Network Share Discovery,Network protocol analysis
+APT1,Network Share Discovery,process
+APT1,Network Share Discovery,process
+APT1,Network Share Discovery,process
+APT1,Network Share Discovery,command
+APT1,Network Share Discovery,command
+APT1,Network Share Discovery,process
+APT1,Network Share Discovery,process
+APT1,System Network Configuration Discovery,Process Execution
+APT1,System Network Configuration Discovery,Process CMD Line
+APT1,System Network Configuration Discovery,PowerShell Logs
+APT1,System Network Configuration Discovery,WMI
+APT1,System Network Configuration Discovery,Process Execution
+APT1,System Network Configuration Discovery,Process CMD Line
+APT1,System Network Configuration Discovery,WMI
+APT1,System Network Configuration Discovery,PowerShell Logs
+APT1,System Network Configuration Discovery,process
+APT1,System Network Configuration Discovery,process
+APT1,System Network Configuration Discovery,process
+APT1,System Network Configuration Discovery,script
+APT1,System Network Configuration Discovery,script
+APT1,System Network Configuration Discovery,command
+APT1,System Network Configuration Discovery,command
+APT1,System Network Configuration Discovery,process
+APT1,System Network Configuration Discovery,process
+APT1,System Network Connections Discovery,Process CMD Line
+APT1,System Network Connections Discovery,Process Execution
+APT1,System Network Connections Discovery,Process CMD Line
+APT1,System Network Connections Discovery,Process Execution
+APT1,System Network Connections Discovery,process
+APT1,System Network Connections Discovery,process
+APT1,System Network Connections Discovery,process
+APT1,System Network Connections Discovery,command
+APT1,System Network Connections Discovery,command
+APT1,System Network Connections Discovery,process
+APT1,System Network Connections Discovery,process
+APT1,Process Discovery,Process CMD Line
+APT1,Process Discovery,Process Execution
+APT1,Process Discovery,Process CMD Line
+APT1,Process Discovery,Process Execution
+APT1,Process Discovery,process
+APT1,Process Discovery,process
+APT1,Process Discovery,process
+APT1,Process Discovery,command
+APT1,Process Discovery,command
+APT1,Process Discovery,process
+APT1,Process Discovery,process
+APT1,Spearphishing Link,Packet capture
+APT1,Spearphishing Link,Web proxy
+APT1,Spearphishing Link,Email gateway
+APT1,Spearphishing Link,Detonation chamber
+APT1,Spearphishing Link,SSL/TLS inspection
+APT1,Spearphishing Link,DNS records
+APT1,Spearphishing Link,Mail server
+APT1,Spearphishing Link,Packet capture
+APT1,Spearphishing Link,Web proxy
+APT1,Spearphishing Link,Email gateway
+APT1,Spearphishing Link,Detonation chamber
+APT1,Spearphishing Link,SSL/TLS inspection
+APT1,Spearphishing Link,DNS records
+APT1,Spearphishing Link,Mail server
+APT1,System Service Discovery,Process Execution
+APT1,System Service Discovery,Process CMD Line
+APT1,System Service Discovery,WMI
+APT1,System Service Discovery,Process Execution
+APT1,System Service Discovery,Process CMD Line
+APT1,System Service Discovery,WMI
+APT1,System Service Discovery,process
+APT1,System Service Discovery,process
+APT1,System Service Discovery,process
+APT1,System Service Discovery,command
+APT1,System Service Discovery,command
+APT1,Remote Email Collection,network traffic
+APT18,Obfuscated Files or Information,Windows Firewall
+APT18,Obfuscated Files or Information,Process CMD Line
+APT18,Obfuscated Files or Information,Windows event logs
+APT18,Obfuscated Files or Information,File monitoring
+APT18,Obfuscated Files or Information,Bninary file metadata
+APT18,Obfuscated Files or Information,Malware reverse engineering
+APT18,Obfuscated Files or Information,Environment variable
+APT18,Obfuscated Files or Information,Network protocol analysis
+APT18,Obfuscated Files or Information,detection system
+APT18,Obfuscated Files or Information,Email gateway
+APT18,Obfuscated Files or Information,SSL/TLS inspection
+APT18,Obfuscated Files or Information,Windows Firewall
+APT18,Obfuscated Files or Information,Process CMD Line
+APT18,Obfuscated Files or Information,File monitoring
+APT18,Obfuscated Files or Information,Bninary file metadata
+APT18,Obfuscated Files or Information,Windows event logs
+APT18,Obfuscated Files or Information,Network protocol analysis
+APT18,Obfuscated Files or Information,Malware reverse engineering
+APT18,Obfuscated Files or Information,Environment variable
+APT18,Obfuscated Files or Information,Network intrusion detection system
+APT18,Obfuscated Files or Information,Email gateway
+APT18,Obfuscated Files or Information,SSL/TLS inspection
+APT18,Obfuscated Files or Information,file
+APT18,Obfuscated Files or Information,file
+APT18,Obfuscated Files or Information,file
+APT18,Obfuscated Files or Information,file
+APT18,Obfuscated Files or Information,file
+APT18,Obfuscated Files or Information,file
+APT18,Obfuscated Files or Information,process
+APT18,Obfuscated Files or Information,process
+APT18,Obfuscated Files or Information,process
+APT18,Obfuscated Files or Information,command
+APT18,Obfuscated Files or Information,command
+APT18,Obfuscated Files or Information,command
+APT18,Obfuscated Files or Information,command
+APT18,File and Directory Discovery,File monitoring
+APT18,File and Directory Discovery,Process CMD Line
+APT18,File and Directory Discovery,Process Execution
+APT18,File and Directory Discovery,File monitoring
+APT18,File and Directory Discovery,Process CMD Line
+APT18,File and Directory Discovery,Process Execution
+APT18,File and Directory Discovery,process
+APT18,File and Directory Discovery,process
+APT18,File and Directory Discovery,process
+APT18,File and Directory Discovery,command
+APT18,File and Directory Discovery,command
+APT18,File and Directory Discovery,process
+APT18,File and Directory Discovery,process
+APT18,Ingress Tool Transfer,detection
+APT18,Ingress Tool Transfer,detection
+APT18,Ingress Tool Transfer,File monitoring
+APT18,Ingress Tool Transfer,Windows Firewall
+APT18,Ingress Tool Transfer,Process Execution
+APT18,Ingress Tool Transfer,Packet capture
+APT18,Ingress Tool Transfer,Netflow/Enclave netflow
+APT18,Ingress Tool Transfer,Network protocol analysis
+APT18,Ingress Tool Transfer,File monitoring
+APT18,Ingress Tool Transfer,Windows Firewall
+APT18,Ingress Tool Transfer,Process Execution
+APT18,Ingress Tool Transfer,Packet capture
+APT18,Ingress Tool Transfer,Netflow/Enclave netflow
+APT18,Ingress Tool Transfer,Network protocol analysis
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,network traffic
+APT18,Ingress Tool Transfer,file
+APT18,External Remote Services,Authentication logs
+APT18,External Remote Services,Authentication logs
+APT18,External Remote Services,application log
+APT18,External Remote Services,logon session
+APT18,External Remote Services,network traffic
+APT18,External Remote Services,network traffic
+APT18,External Remote Services,network traffic
+APT18,External Remote Services,network traffic
+APT18,External Remote Services,network traffic
+APT18,External Remote Services,network traffic
+APT18,External Remote Services,network traffic
+APT18,System Information Discovery,Process CMD Line
+APT18,System Information Discovery,Process Execution
+APT18,System Information Discovery,Process CMD Line
+APT18,System Information Discovery,Process Execution
+APT18,System Information Discovery,instance
+APT18,System Information Discovery,process
+APT18,System Information Discovery,process
+APT18,System Information Discovery,process
+APT18,System Information Discovery,command
+APT18,System Information Discovery,command
+APT18,System Information Discovery,process
+APT18,System Information Discovery,process
+APT18,Valid Accounts,Authentication logs
+APT18,Valid Accounts,Process Execution
+APT18,Valid Accounts,Authentication logs
+APT18,Valid Accounts,Process Execution
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,user account
+APT18,Valid Accounts,logon session
+APT18,Valid Accounts,logon session
+APT18,Valid Accounts,logon session
+Winnti Group,Rootkit,Process Execution
+Winnti Group,Rootkit,AutoRuns
+Winnti Group,Rootkit,LOG-MD
+Winnti Group,Rootkit,LOG-MD
+Winnti Group,Rootkit,BIOS
+Winnti Group,Rootkit,MBR
+Winnti Group,Rootkit,System calls
+Winnti Group,Rootkit,Process Execution
+Winnti Group,Rootkit,AutoRuns
+Winnti Group,Rootkit,LOG-MD
+Winnti Group,Rootkit,LOG-MD
+Winnti Group,Rootkit,BIOS
+Winnti Group,Rootkit,MBR
+Winnti Group,Rootkit,System calls
+Winnti Group,Rootkit,drive
+Winnti Group,Rootkit,firmware
+Winnti Group,Rootkit,firmware
+Winnti Group,Ingress Tool Transfer,detection
+Winnti Group,Ingress Tool Transfer,detection
+Winnti Group,Ingress Tool Transfer,File monitoring
+Winnti Group,Ingress Tool Transfer,Windows Firewall
+Winnti Group,Ingress Tool Transfer,Process Execution
+Winnti Group,Ingress Tool Transfer,Packet capture
+Winnti Group,Ingress Tool Transfer,Netflow/Enclave netflow
+Winnti Group,Ingress Tool Transfer,Network protocol analysis
+Winnti Group,Ingress Tool Transfer,File monitoring
+Winnti Group,Ingress Tool Transfer,Windows Firewall
+Winnti Group,Ingress Tool Transfer,Process Execution
+Winnti Group,Ingress Tool Transfer,Packet capture
+Winnti Group,Ingress Tool Transfer,Netflow/Enclave netflow
+Winnti Group,Ingress Tool Transfer,Network protocol analysis
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,network traffic
+Winnti Group,Ingress Tool Transfer,file
+Winnti Group,Code Signing,Binary file metadata
+Winnti Group,Code Signing,LMD - File Hash
+Winnti Group,Code Signing,Binary file metadata
+Winnti Group,Code Signing, - File Hash
+Winnti Group,File and Directory Discovery,File monitoring
+Winnti Group,File and Directory Discovery,Process CMD Line
+Winnti Group,File and Directory Discovery,Process Execution
+Winnti Group,File and Directory Discovery,File monitoring
+Winnti Group,File and Directory Discovery,Process CMD Line
+Winnti Group,File and Directory Discovery,Process Execution
+Winnti Group,File and Directory Discovery,process
+Winnti Group,File and Directory Discovery,process
+Winnti Group,File and Directory Discovery,process
+Winnti Group,File and Directory Discovery,command
+Winnti Group,File and Directory Discovery,command
+Winnti Group,File and Directory Discovery,process
+Winnti Group,File and Directory Discovery,process
+Winnti Group,Process Discovery,Process CMD Line
+Winnti Group,Process Discovery,Process Execution
+Winnti Group,Process Discovery,Process CMD Line
+Winnti Group,Process Discovery,Process Execution
+Winnti Group,Process Discovery,process
+Winnti Group,Process Discovery,process
+Winnti Group,Process Discovery,process
+Winnti Group,Process Discovery,command
+Winnti Group,Process Discovery,command
+Winnti Group,Process Discovery,process
+Winnti Group,Process Discovery,process
+APT19,Obfuscated Files or Information,Windows Firewall
+APT19,Obfuscated Files or Information,Process CMD Line
+APT19,Obfuscated Files or Information,Windows event logs
+APT19,Obfuscated Files or Information,File monitoring
+APT19,Obfuscated Files or Information,Bninary file metadata
+APT19,Obfuscated Files or Information,Malware reverse engineering
+APT19,Obfuscated Files or Information,Environment variable
+APT19,Obfuscated Files or Information,Network protocol analysis
+APT19,Obfuscated Files or Information,detection system
+APT19,Obfuscated Files or Information,Email gateway
+APT19,Obfuscated Files or Information,SSL/TLS inspection
+APT19,Obfuscated Files or Information,Windows Firewall
+APT19,Obfuscated Files or Information,Process CMD Line
+APT19,Obfuscated Files or Information,File monitoring
+APT19,Obfuscated Files or Information,Bninary file metadata
+APT19,Obfuscated Files or Information,Windows event logs
+APT19,Obfuscated Files or Information,Network protocol analysis
+APT19,Obfuscated Files or Information,Malware reverse engineering
+APT19,Obfuscated Files or Information,Environment variable
+APT19,Obfuscated Files or Information,Network intrusion detection system
+APT19,Obfuscated Files or Information,Email gateway
+APT19,Obfuscated Files or Information,SSL/TLS inspection
+APT19,Obfuscated Files or Information,file
+APT19,Obfuscated Files or Information,file
+APT19,Obfuscated Files or Information,file
+APT19,Obfuscated Files or Information,file
+APT19,Obfuscated Files or Information,file
+APT19,Obfuscated Files or Information,file
+APT19,Obfuscated Files or Information,process
+APT19,Obfuscated Files or Information,process
+APT19,Obfuscated Files or Information,process
+APT19,Obfuscated Files or Information,command
+APT19,Obfuscated Files or Information,command
+APT19,Obfuscated Files or Information,command
+APT19,Obfuscated Files or Information,command
+APT19,Command and Scripting Interpreter,Process CMD Line
+APT19,Command and Scripting Interpreter,Process Execution
+APT19,Command and Scripting Interpreter,Process CMD Line
+APT19,Command and Scripting Interpreter,Process Execution
+APT19,Command and Scripting Interpreter,command
+APT19,Command and Scripting Interpreter,command
+APT19,Command and Scripting Interpreter,process
+APT19,Command and Scripting Interpreter,process
+APT19,Command and Scripting Interpreter,process
+APT19,Command and Scripting Interpreter,module
+APT19,Command and Scripting Interpreter,script
+APT19,Command and Scripting Interpreter,script
+APT19,System Network Configuration Discovery,Process Execution
+APT19,System Network Configuration Discovery,Process CMD Line
+APT19,System Network Configuration Discovery,PowerShell Logs
+APT19,System Network Configuration Discovery,WMI
+APT19,System Network Configuration Discovery,Process Execution
+APT19,System Network Configuration Discovery,Process CMD Line
+APT19,System Network Configuration Discovery,WMI
+APT19,System Network Configuration Discovery,PowerShell Logs
+APT19,System Network Configuration Discovery,process
+APT19,System Network Configuration Discovery,process
+APT19,System Network Configuration Discovery,process
+APT19,System Network Configuration Discovery,script
+APT19,System Network Configuration Discovery,script
+APT19,System Network Configuration Discovery,command
+APT19,System Network Configuration Discovery,command
+APT19,System Network Configuration Discovery,process
+APT19,System Network Configuration Discovery,process
+APT19,System Owner/User Discovery,Process CMD Line
+APT19,System Owner/User Discovery,Process Execution
+APT19,System Owner/User Discovery,File monitoring
+APT19,System Owner/User Discovery,PowerShell
+APT19,System Owner/User Discovery,WMI Auth
+APT19,System Owner/User Discovery,Process CMD Line
+APT19,System Owner/User Discovery,Process Execution
+APT19,System Owner/User Discovery,File monitoring
+APT19,System Owner/User Discovery,PowerShell Logs
+APT19,System Owner/User Discovery,
+APT19,System Owner/User Discovery,process
+APT19,System Owner/User Discovery,process
+APT19,System Owner/User Discovery,process
+APT19,System Owner/User Discovery,command
+APT19,System Owner/User Discovery,command
+APT19,Deobfuscate/Decode Files or Information,Process CMD Line
+APT19,Deobfuscate/Decode Files or Information,Process Execution
+APT19,Deobfuscate/Decode Files or Information,File monitoring
+APT19,Deobfuscate/Decode Files or Information,Process CMD Line
+APT19,Deobfuscate/Decode Files or Information,Process Execution
+APT19,Deobfuscate/Decode Files or Information,File monitoring
+APT19,Deobfuscate/Decode Files or Information,process
+APT19,Deobfuscate/Decode Files or Information,process
+APT19,Deobfuscate/Decode Files or Information,process
+APT19,Deobfuscate/Decode Files or Information,file
+APT19,Deobfuscate/Decode Files or Information,file
+APT19,Deobfuscate/Decode Files or Information,script
+APT19,Deobfuscate/Decode Files or Information,script
+APT19,System Information Discovery,Process CMD Line
+APT19,System Information Discovery,Process Execution
+APT19,System Information Discovery,Process CMD Line
+APT19,System Information Discovery,Process Execution
+APT19,System Information Discovery,instance
+APT19,System Information Discovery,process
+APT19,System Information Discovery,process
+APT19,System Information Discovery,process
+APT19,System Information Discovery,command
+APT19,System Information Discovery,command
+APT19,System Information Discovery,process
+APT19,System Information Discovery,process
+APT19,Modify Registry,detection
+APT19,Modify Registry,detection
+APT19,Modify Registry,detection
+APT19,Modify Registry,detection
+APT19,Modify Registry,Windows Registry
+APT19,Modify Registry,File monitoring
+APT19,Modify Registry,Process Execution
+APT19,Modify Registry,Process CMD Line
+APT19,Modify Registry,Reg Compare
+APT19,Modify Registry,Windows Registry
+APT19,Modify Registry,File monitoring
+APT19,Modify Registry,Process Execution
+APT19,Modify Registry,Process CMD Line
+APT19,Modify Registry,Reg Compare
+APT19,Modify Registry,process
+APT19,Modify Registry,process
+APT19,Modify Registry,process
+APT19,Modify Registry,process
+APT19,Modify Registry,process
+APT19,Modify Registry,command
+APT19,Modify Registry,command
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Modify Registry,windows registry
+APT19,Drive-by Compromise,Process Execution
+APT19,Drive-by Compromise,Windows Firewall
+APT19,Drive-by Compromise,Web proxy
+APT19,Drive-by Compromise,Network intrusion detection system
+APT19,Drive-by Compromise,SSL/TLS inspection
+APT19,Drive-by Compromise,Packet capture
+APT19,Drive-by Compromise,Network device logs
+APT19,Drive-by Compromise,Process Execution
+APT19,Drive-by Compromise,Windows Firewall
+APT19,Drive-by Compromise,Web proxy
+APT19,Drive-by Compromise,Network intrusion detection system
+APT19,Drive-by Compromise,SSL/TLS inspection
+APT19,Drive-by Compromise,Packet capture
+APT19,Drive-by Compromise,Network device logs
+APT19,Drive-by Compromise,file
+APT19,Drive-by Compromise,process
+APT19,Drive-by Compromise,process
+APT19,Drive-by Compromise,process
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,network traffic
+APT19,Drive-by Compromise,application log
+EXOTIC LILY,Search Victim-Owned Websites,application log
+EXOTIC LILY,Spearphishing Link,Packet capture
+EXOTIC LILY,Spearphishing Link,Web proxy
+EXOTIC LILY,Spearphishing Link,Email gateway
+EXOTIC LILY,Spearphishing Link,Detonation chamber
+EXOTIC LILY,Spearphishing Link,SSL/TLS inspection
+EXOTIC LILY,Spearphishing Link,DNS records
+EXOTIC LILY,Spearphishing Link,Mail server
+EXOTIC LILY,Spearphishing Link,Packet capture
+EXOTIC LILY,Spearphishing Link,Web proxy
+EXOTIC LILY,Spearphishing Link,Email gateway
+EXOTIC LILY,Spearphishing Link,Detonation chamber
+EXOTIC LILY,Spearphishing Link,SSL/TLS inspection
+EXOTIC LILY,Spearphishing Link,DNS records
+EXOTIC LILY,Spearphishing Link,Mail server
+EXOTIC LILY,Exploitation for Client Execution,Process Execution
+EXOTIC LILY,Exploitation for Client Execution,Windows Firewall
+EXOTIC LILY,Exploitation for Client Execution,Anti-virus
+EXOTIC LILY,Exploitation for Client Execution,System calls
+EXOTIC LILY,Exploitation for Client Execution,Process Execution
+EXOTIC LILY,Exploitation for Client Execution,Windows Firewall
+EXOTIC LILY,Exploitation for Client Execution,Anti-virus
+EXOTIC LILY,Exploitation for Client Execution,System calls
+EXOTIC LILY,Spearphishing via Service,SSL/TLS inspection
+EXOTIC LILY,Spearphishing via Service,Anti-virus
+EXOTIC LILY,Spearphishing via Service,Web proxy
+EXOTIC LILY,Spearphishing via Service,SSL/TLS inspection
+EXOTIC LILY,Spearphishing via Service,Anti-virus
+EXOTIC LILY,Spearphishing via Service,Web proxy
+EXOTIC LILY,Web Service,Host network interface
+EXOTIC LILY,Web Service,Netflow/Enclave netflow
+EXOTIC LILY,Web Service,Network protocol analysis
+EXOTIC LILY,Web Service,Packet capture
+EXOTIC LILY,Web Service,SSL/TLS inspection
+EXOTIC LILY,Web Service,Host network interface
+EXOTIC LILY,Web Service,Netflow/Enclave netflow
+EXOTIC LILY,Web Service,Network protocol analysis
+EXOTIC LILY,Web Service,Packet capture
+EXOTIC LILY,Web Service,SSL/TLS inspection
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Web Service,network traffic
+EXOTIC LILY,Malicious Link,network traffic
+APT12,Exploitation for Client Execution,Process Execution
+APT12,Exploitation for Client Execution,Windows Firewall
+APT12,Exploitation for Client Execution,Anti-virus
+APT12,Exploitation for Client Execution,System calls
+APT12,Exploitation for Client Execution,Process Execution
+APT12,Exploitation for Client Execution,Windows Firewall
+APT12,Exploitation for Client Execution,Anti-virus
+APT12,Exploitation for Client Execution,System calls
+APT12,Bidirectional Communication,network traffic
+APT12,DNS Calculation,network traffic
