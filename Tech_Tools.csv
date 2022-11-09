@@ -1,4 +1,5 @@
-Techniques,Tools Used
+Techniques,Tools
+
 Disable Windows Event Logging,Wevtutil
 Accessibility Features,Empire
 Rundll32,Koadic
