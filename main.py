@@ -154,7 +154,7 @@ def find_detections(actor, technique):
 def main():
     attack = Attck()
 
-    list_actors = ["EXOTIC LILY", "APT29", "APT12", "APT17", "APT18", "APT19", "APT1", "LAPSUS$", "Winnti Group"]
+    list_actors = ["APT1", "APT12"]
     #
     # for technique in attack.enterprise.techniques:
     #     print(technique.id)
