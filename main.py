@@ -160,7 +160,7 @@ def find_detections(actor, technique):
 #Function to create a csv file with given column names and file name
 def create_csv_file(file_name, column_list):
 
-    f = open("file_name"+".csv", "w")
+    f = open(file_name+".csv", "w")
     fieldnames = []
     for column_name in column_list:
         fieldnames.append(column_name)
@@ -191,9 +191,10 @@ def main():
     #         print(subtechnique.id)
     #         print(subtechnique.name)
 
-    create_csv_file("TG_Tech.csv", column_list = ["Threat Group", "Technique Used", "Technique Description"])
+	
+    create_csv_file("Test.csv", column_list = ["Threat Group", "Technique Used", "Technique Description"]
 
-    count = 0
+
     # Creating TG- Technique - Technique Description CSV
     f = open("TG_Tech.csv", "w")
     writer = csv.DictWriter(
@@ -287,3 +288,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
