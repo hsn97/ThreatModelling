@@ -1,10 +1,16 @@
+#You only need to import pyattck and csv to run the script
+
 from pyattck import Attck
-import pandas as pd
 import csv
 
+#pandas is required if you want run the find_detections function
+#The detections function in incomplete
+
+import pandas as pd
 from pandas import *
 from pandas.io.json import json_normalize
 
+#See main function at bottom of script for order of operations
 
 def find_techniques(actor):
     attack = Attck()
@@ -151,10 +157,32 @@ def find_detections(actor, technique):
                                 writer.writerow([actor.name, technique.name, data_source])
 
 
+#Function to create a csv file with given column names and file name
+def create_csv_file(file_name, column_list):
+
+    f = open("file_name"+".csv", "w")
+    fieldnames = []
+    for column_name in column_list:
+        fieldnames.append(column_name)
+
+    writer = csv.DictWriter(
+        f, fieldnames)
+    writer.writeheader()
+    f.close()
+
+
+
+
+
+
+#Start of Execution
+
 def main():
     attack = Attck()
 
-    list_actors = ["APT1", "APT12"]
+    #Define a list of threat actors - All other functions work on these actors
+
+    list_actors = ["EXOTIC LILY", "APT29", "APT12", "APT17", "APT18", "APT19", "APT1", "LAPSUS$", "Winnti Group"]
     #
     # for technique in attack.enterprise.techniques:
     #     print(technique.id)
@@ -162,6 +190,9 @@ def main():
     #     for subtechnique in technique.subtechniques:
     #         print(subtechnique.id)
     #         print(subtechnique.name)
+
+    create_csv_file("TG_Tech.csv", column_list = ["Threat Group", "Technique Used", "Technique Description"])
+
     count = 0
     # Creating TG- Technique - Technique Description CSV
     f = open("TG_Tech.csv", "w")
