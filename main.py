@@ -140,7 +140,7 @@ def create_csv_file(file_name, column_list):
 def main():
     attack = Attck()
 
-    list_actors = ["EXOTIC LILY", "APT29", "APT12", "APT17", "APT18", "APT19", "APT1", "LAPSUS$", "Winnti Group"]
+    list_actors = []
 
     count = 0
 
