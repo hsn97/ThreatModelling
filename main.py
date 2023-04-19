@@ -1,6 +1,7 @@
 from pyattck import Attck
 import pandas as pd
 import csv
+import os
 
 from pandas import *
 from pandas.io.json import json_normalize
@@ -16,8 +17,10 @@ def find_techniques(actor):
         find_tools(technique)
         find_malware(technique)
         #find_detections(actor, technique)
+        #column_list = [actor.name, technique.name, technique.description]
+        #write_data_xlsx("TG", column_list)
 
-        with open('TG_Tech.csv', 'a', newline='') as file:
+        with open('DataFiles/TG_Tech.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([actor.name, technique.name, technique.description])
 
@@ -29,7 +32,7 @@ def find_mitigations(actor, technique):
     for mitigation in technique.mitigations:
         # print(mitigation.name)
 
-        with open('TG_Tech_Mit.csv', 'a', newline='') as file:
+        with open('DataFiles/TG_Tech_Mit.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([actor.name, technique.name, mitigation.name, mitigation.description])
 
@@ -41,7 +44,7 @@ def find_tools(technique):
     for tool in technique.tools:
         # print(tool.name)
 
-        with open('Tech_Tools.csv', 'a', newline='') as file:
+        with open('DataFiles/Tech_Tools.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([technique.name, tool.name])
 
@@ -53,7 +56,7 @@ def find_malware(technique):
     for malware in technique.malwares:
         # print(malware.name)
 
-        with open('Tech_Malware.csv', 'a', newline='') as file:
+        with open('DataFiles/Tech_Malware.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([technique.name, malware.name])
 
@@ -65,7 +68,7 @@ def find_malware_actor(actor):
     for malware in actor.malwares:
         # print(malware.name)
 
-        with open('TG_Malware.csv', 'a', newline='') as file:
+        with open('DataFiles/TG_Malware.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([actor.name, malware.name])
 
@@ -77,7 +80,7 @@ def find_tools_actor(actor):
     for tool in actor.tools:
         # print(tool.name)
 
-        with open('TG_Tools.csv', 'a', newline='') as file:
+        with open('DataFiles/TG_Tools.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([actor.name, tool.name])
 
@@ -98,7 +101,7 @@ def find_detections(actor, technique):
                 if 'data_source' in nested_dict and nested_dict['data_source'] == nested_dict['data_source']:
                     # print("Nested value of data source is - {}".format(nested_dict['data_source']))
                     data_source = nested_dict['data_source']
-                    with open('TG_Tech_Detect.csv', 'a', newline='') as file:
+                    with open('DataFiles/TG_Tech_Detect.csv', 'a', newline='') as file:
                         writer = csv.writer(file)
                         writer.writerow([actor.name, technique.name, data_source])
                     # print("Source 1 {}".format(data_source))
@@ -108,7 +111,7 @@ def find_detections(actor, technique):
                         # print("Final Detection is {}".format(detections_list[1]))
                         data_source = detections_list[1]
                         # print("Source 2 {}".format(data_source))
-                        with open('TG_Tech_Detect.csv', 'a', newline='') as file:
+                        with open('DataFiles/TG_Tech_Detect.csv', 'a', newline='') as file:
                             writer = csv.writer(file)
                             writer.writerow([actor.name, technique.name, data_source])
                     else:
@@ -119,7 +122,7 @@ def find_detections(actor, technique):
                             if data_source == '200-500':
                                 data_source = 'PowerShell Logs'
                             # print("Source 3 {}".format(data_source))
-                            with open('TG_Tech_Detect.csv', 'a', newline='') as file:
+                            with open('DataFiles/TG_Tech_Detect.csv', 'a', newline='') as file:
                                 writer = csv.writer(file)
                                 writer.writerow([actor.name, technique.name, data_source])
 
@@ -135,35 +138,48 @@ def create_csv_file(file_name, column_list):
     writer.writeheader()
     f.close()
 
+def create_xlsx_file(name, column_list):
+	df1 = pd.DataFrame(column_list)
+	with pd.ExcelWriter('master.xlsx', engine = 'openpyxl') as writer:
+		df1_transposed = df1.T
+		df1_transposed.to_excel(writer, sheet_name=name, index = False, header = None)
 
 
+def write_data_xlsx(name, column_list):
+	df1 = pd.DataFrame(column_list)
+	with pd.ExcelWriter('master.xlsx', mode = 'a', engine = 'openpyxl') as writer:
+		df1_transposed = df1.T
+		print(name)
+		print(type(name))
+		df1_transposed.to_excel(writer, sheet_name=name, index = False, header = False)
+	
 def main():
     attack = Attck()
 
-    list_actors = []
+    list_actors = ["EXOTIC LILY", "APT29", "APT12", "APT17", "APT18", "APT19", "APT1", "LAPSUS$", "Winnti Group"]
 
     count = 0
 
     # Creating TG- Technique - Technique Description CSV
-    create_csv_file("TG_Tech.csv", ["Threat Group", "Technique Used", "Technique Description"])
+    create_csv_file("DataFiles/TG_Tech.csv", ["Threat Group", "Technique Used", "Technique Description"])
 
     # Creating TG - Technique - Mitigation CSV
-    create_csv_file("TG_Tech_Mit.csv", ["Threat Group", "Technique Used", "Mitigation", "Mitigation Description"])
+    create_csv_file("DataFiles/TG_Tech_Mit.csv", ["Threat Group", "Technique Used", "Mitigation", "Mitigation Description"])
 
     # Creating TG - Tools CSV
-    create_csv_file("TG_Tools.csv", ["Threat Group", "Tools Used"])
+    create_csv_file("DataFiles/TG_Tools.csv", ["Threat Group", "Tools"])
 
     #Creating Techniques - Tools CSV
-    create_csv_file("Tech_Tools.csv", ["Techniques", "Tools Used"])
+    create_csv_file("DataFiles/Tech_Tools.csv", ["Techniques", "Tools"])
 
 	#Creating TG - Malware CSV
-    create_csv_file("TG_Malware.csv", ["Threat Group", "Malware Used"])
+    create_csv_file("DataFiles/TG_Malware.csv", ["Threat Group", "Malware"])
     
     #Creating Techniques - Tools CSV
-    create_csv_file("Tech_Malware.csv", ["Techniques", "Malware Used"])
+    create_csv_file("DataFiles/Tech_Malware.csv", ["Techniques", "Malware"])
 
     #Creating TG-Techniques - Detections CSV
-    create_csv_file("TG_Tech_Detect.csv", ["Threat Group","Techniques Used", "Detection"])
+    create_csv_file("DataFiles/TG_Tech_Detect.csv", ["Threat Group","Techniques Used", "Detection"])
 
     # Iterate through list of threat actors and find techniques, tools, malware used by each
 	#Mitigations are found through a nested function in the find_techniques()
@@ -178,4 +194,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+    with open("create_graphs.py") as f:
+        exec(f.read())
 
